@@ -1,0 +1,25 @@
+{
+  "name": "play",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "clear": "printf '\n%.0s' {1..100}",
+    "dev": "HOST=0.0.0.0 PORT=17000 nuxt dev",
+    "start": "npm run clear && npm run dev",
+    "build": "NODE_ENV=production nuxt generate",
+    "serve": "HOST=0.0.0.0 PORT=1750 nuxt start",
+    "check": "npm run clear && npm run build && ruby -run -ehttpd ./dist -p17000"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "nuxt": "^2.14.1",
+    "nuxt-i18n": "^6.0.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
