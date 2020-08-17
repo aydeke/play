@@ -18,6 +18,22 @@ export default {
           name: `description`,
           content: `My github pages play website`,
         },
+        // Open Graph metadata
+        // {
+        //   hid: `og:image`,
+        //   property: `og:image`,
+        //   content: `https://www.advokats.kz/og_index_page_${this.$i18n.locale}.jpg`,
+        // },
+        {
+          hid: `og:title`,
+          property: `og:title`,
+          content: `Github Play`,
+        },
+        {
+          hid: `og:description`,
+          property: `og:description`,
+          content: `My github pages play website`,
+        },
       ],
     }
   },
