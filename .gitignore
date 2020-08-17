@@ -107,6 +107,6 @@ dist
 .DS_Store
 .nuxt
 .vscode
-dist
+# dist
 .env
 *.log
