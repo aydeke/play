@@ -1,5 +1,5 @@
 <template lang="pug">
-h1 Hello Github pages!
+h1 Added meta array
 </template>
 <script>
 export default {
